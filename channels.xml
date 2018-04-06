@@ -1,0 +1,26 @@
+<config imageUrlBase="https://cdn-images.audioaddict.com">
+    <channel_class site="Classical Radio" url="http://prem2.classicalradio.com:80/" suffix="">
+        <channel>
+            <name>Vivaldi</name>
+            <title>Antonio Vivaldi - 1678 to 1741</title>
+            <image>
+                <smallSize>200x200</smallSize>
+                <largeSize>200x200</largeSize>
+                <!-- the full image url would be like: -->
+                <!-- https://cdn-images.audioaddict.com/....3118.jpg?size=200x200 -->
+                <path>/4/e/2/2/2/3/4e22231a55123934fa159fbbe7df7985.png</path>
+            </image>
+        </channel>
+    </channel_class>
+    <channel_class site="Digitally Imported" url="http://prem2.di.fm:80/" suffix="_hi">
+        <channel>
+            <name>nightcore</name>
+            <title>NightCore Music</title>
+            <image>
+                <smallSize>200x200</smallSize>
+                <largeSize>200x200</largeSize>
+                <path>/2/5/a/6/0/6/25a606274630f89ce330c455f34b3118.jpg</path>
+            </image>
+        </channel>
+    </channel_class>
+</config>
