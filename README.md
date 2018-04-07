@@ -12,6 +12,7 @@ Web server in Python for your Amazon Alexa skill to play radios on Digitally Imp
 
 ## Overview
 In this application I'm using [Flask-Ask](http://flask-ask.readthedocs.io/en/latest/) which is a "Rapid Alexa Skills Kit Development for Amazon Echo Devices". From my point of view this is by far the quickest way to create your own skills.
+
 But there are more alternatives and you can find them in the official [Alexa GitHub Site](https://github.com/alexa/).
 
 
@@ -51,7 +52,8 @@ sudo pip install -U cryptography==2.1.4
 
 ## Getting Started
 This is pretty similar to [Getting Started](https://github.com/ricardojover/alexa-skill-digitally-imported#getting-started) on my other project written in NodeJS.
-The main difference is that in this project I've decided to load the favourite channels from a file instead of hardcode them in the code. So you will have to edit the file channels.xml and change it accordingly.
+
+The main difference is that in this project I've decided to load the favourite channels from a file instead of hardcoding them in the code. So you will have to edit the file channels.xml and change it accordingly.
 
 
 ## Tips
